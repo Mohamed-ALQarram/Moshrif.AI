@@ -20,7 +20,7 @@ from qdrant_client import QdrantClient, models
 # ──────────────────────────────────────────────────────────────────────────────
 
 DATA_PATH = Path("Moshrif-knowledge-chunks.json")
-QDRANT_PATH = "qdrant_db_hierarchical"
+QDRANT_PATH = "./Qdrant_DB"
 EMBEDDING_URL = "http://127.0.0.1:8000/embed"
 VECTOR_SIZE = 1024
 COLLECTION_NAME = "moshrif_knowledge_v3"
