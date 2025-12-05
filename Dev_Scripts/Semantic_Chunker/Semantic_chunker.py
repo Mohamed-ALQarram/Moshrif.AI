@@ -4,7 +4,7 @@ import google.generativeai as genai
 from google.api_core import retry
 
 # 1. Setup API Key
-API_KEY = "AIzaSyAumlGUx9PdwGuI7oGC10VUKof63HQz4FU" 
+API_KEY = "Your-API-Key" 
 genai.configure(api_key=API_KEY)
 
 # التغيير هنا: استخدمنا Pro بدلاً من Flash للدقة القصوى
