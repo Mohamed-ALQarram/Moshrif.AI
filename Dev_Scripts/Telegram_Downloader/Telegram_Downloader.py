@@ -6,8 +6,8 @@ import re
 
 # --- Telegram API ---
 # API ID + API HASH
-api_id = 32462522
-api_hash = "8805af384ed36fd6a4015811cbb3a8f4"
+api_id = 000000 #write your id
+api_hash = "your-API"
 
 # قناة النصوص
 SOURCE_CHANNEL = "https://t.me/moshrif_knowledge"
